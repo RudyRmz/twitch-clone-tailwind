@@ -4,7 +4,7 @@ export default function Streamer(props){
     let classnames = "flex justify-between items-center"
     
     if(!props.live){
-        classnames += " " //falta el opacity
+        classnames += " opacity-50" //falta el opacity
     }
 
     return(
