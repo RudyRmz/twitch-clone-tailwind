@@ -71,6 +71,27 @@ const categoryObject =[
         image:"https://static-cdn.jtvnw.net/ttv-boxart/386303001_IGDB-285x380.jpg",
         nuevo: false
     },
+    {
+        title:"Dungeons & Dragons",
+        espectadores:"1.4k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/509577-285x380.jpg",
+        nuevo: false
+    },
+    {
+        title:"Retro",
+        espectadores:"7.6k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/27284-285x380.jpg",
+        nuevo: false
+    },
+    {
+        title:"The Finals",
+        espectadores:"30.6k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/1910103699_IGDB-285x380.jpg",
+        nuevo: true
+    },
 ]
 
 export default function CategoryList(){

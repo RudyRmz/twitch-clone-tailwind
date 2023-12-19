@@ -1,10 +1,36 @@
 
 export default function NavBar(){
     return(
-        <nav className="bg-[#18181a] h-[50px] flex-row gap-[20px] p-[20px] font-bold items-center text-white">
-            <img className="w-7" src="https://seeklogo.com/images/T/twitch-logo-4931D91F85-seeklogo.com.png" alt="" />
-            <div className="font-bold hover:text-purple-400 hover:cursor-pointer">Siguiendo</div>
-            <div className="font-bold hover:text-purple-400 hover:cursor-pointer">Explorar</div>
+        <nav className="bg-[#18181a] h-[50px] flex justify-between gap-[20px] p-[20px] font-bold items-center text-white">
+            <div className="flex gap-[20px] items-center text-xl " >
+                <img className="w-9" src="./public/twitch.svg" alt="" />
+                <a className="font-bold hover:text-purple-400 hover:cursor-pointer">Siguiendo</a>
+                <a className="font-bold hover:text-purple-400 hover:cursor-pointer">Explorar</a>
+            </div>
+
+            <div>
+                <input className="bg-[#18181a] border-[1px] border-[#53535f8c] rounded-md p-1 w-[350px] font-medium  " type="text" placeholder="Buscar"/>
+            </div>
+
+            <div className="flex items-center gap-[15px]">
+                <a href="">
+                    <img src="./public/corona.svg" alt="" />
+                </a>
+                <a href="">
+                    <img src="./public/bandeja.svg" alt="" />
+                </a>
+                <a href="">
+                <img src="./public/mensaje.svg" alt="" />
+                </a>
+                <a href="">
+                <img src="./public/diamante.svg" alt="" />
+                </a>
+                <div className="bg-[#53535f61] p-1 flex gap-1 rounded-[5px]">
+                    <img src="./public/pila.svg" alt="" />
+                    <a href="">Mira sin anuncios</a>
+                </div>
+                
+            </div>
         </nav>
     )
 }
