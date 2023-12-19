@@ -9,8 +9,11 @@ export default function CategoryCard (props){
 
     return(
         <article className={classnames}>
-            <img className="w-screen h-[60%]" src= {props.image} alt="juegito de Zelda" />
+            <div className="relative group hover:bg-purple-500 ">
+            <img className="w-screen h-[60%] transition-transform transform group-hover:-translate-y-2 group-hover:translate-x-2" src= {props.image} alt="juegito de Zelda" />
             {props.nuevo === true && <div class="absolute top-0 right-0 p-[1px 10px] text-white bg-[#ff75e6] rounded ">Nuevo</div>}
+            </div>
+            
             
             <div>
             <h3 className="font-semibold">{props.title}</h3>
