@@ -1,14 +1,14 @@
 
 
 export default function Streamer(props){
-    let classnames = "flex justify-between items-center"
+    let classnames = "flex justify-between items-center hover:bg-zinc-700"
     
     if(!props.live){
         classnames += " opacity-50" //falta el opacity
     }
 
     return(
-        <div className= {classnames}>
+        <a className= {classnames} href="">
             <div className="flex items-center gap-[10px] ">
             <img className="w-8 h-8 rounded-[100%]" src={props.img} alt="" />
             <p className="text-ellipsis overflow-hidden ...">{props.name}</p>
@@ -19,6 +19,6 @@ export default function Streamer(props){
             {props.counter && <p>{props.counter}</p>} 
             </div>
             
-        </div>
+        </a>
     )
 }

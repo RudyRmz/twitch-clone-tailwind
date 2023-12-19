@@ -6,10 +6,12 @@ export default function NavBar(){
                 <img className="w-9" src="./src/assets/twitch.svg" alt="" />
                 <a className="font-bold hover:text-purple-400 hover:cursor-pointer">Siguiendo</a>
                 <a className="font-bold hover:text-purple-400 hover:cursor-pointer">Explorar</a>
+                <img className="w-5" src="./src/assets/3puntos.svg" alt="" />
             </div>
 
-            <div>
-                <input className="bg-[#18181a] border-[1px] border-[#53535f8c] rounded-md p-1 w-[350px] font-medium  " type="text" placeholder="Buscar"/>
+            <div className="flex items-center">
+                <input className="bg-[#18181a] border-[1px] border-[#53535f8c] rounded-l-md p-1 w-[350px] font-medium focus:ring focus:ring-purple-600  " type="text" placeholder="Buscar"/>
+                <img className="p-2 bg-[#53535f61] rounded-r-md " src="./src/assets/lupa-1.svg" alt="" />
             </div>
 
             <div className="flex items-center gap-[15px]">
@@ -29,7 +31,7 @@ export default function NavBar(){
                     <img src="./src/assets/pila.svg" alt="" />
                     <a href="">Mira sin anuncios</a>
                 </div>
-                
+                <img className="rounded-[100%] w-7" src="https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-70x70.png" alt="" />
             </div>
         </nav>
     )

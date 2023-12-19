@@ -35,8 +35,12 @@ const streamerObject = [
 
 export default function SectionFollow(){
     return(
-        <section className="flex flex-col gap-3">
+        <section className="flex flex-col gap-3 mb-6">
+            <div className="flex justify-between">
             <h4 className="font-semibold">CANALES QUE SIGUES</h4>
+            <img className="w-6" src="./src/assets/flechaArribaAbajo.svg" alt="" />
+            </div>
+            
 
             {streamerObject.map((streamer)=>{
                 return (
