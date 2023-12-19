@@ -1,7 +1,7 @@
 
 export default function NavBar(){
     return(
-        <nav className="bg-[#18181a] h-[50px] flex justify-between gap-[20px] p-[20px] font-bold items-center text-white">
+        <nav className="bg-[#18181a] h-[50px] fixed top-0 left-0 right-0 z-[1000]  flex justify-between gap-[20px] p-[20px] font-bold items-center text-white">
             <div className="flex gap-[20px] items-center text-xl " >
                 <img className="w-9" src="./src/assets/twitch.svg" alt="" />
                 <a className="font-bold hover:text-purple-400 hover:cursor-pointer">Siguiendo</a>

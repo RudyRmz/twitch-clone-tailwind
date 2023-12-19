@@ -92,11 +92,123 @@ const categoryObject =[
         image:"https://static-cdn.jtvnw.net/ttv-boxart/1910103699_IGDB-285x380.jpg",
         nuevo: true
     },
+    {
+        title:"Lethal Company",
+        espectadores:"93.6k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/2085980140_IGDB-285x380.jpgg",
+        nuevo: false
+    },
+    {
+        title:"League of Legends",
+        espectadores:"105k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg",
+        nuevo: false
+    },
+    {
+        title:"Apex Legends",
+        espectadores:"30k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/511224-285x380.jpg",
+        nuevo: false
+    },
+    {
+        title:"Pokemon Scarlet/Violet",
+        espectadores:"30k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/670867987-285x380.jpg",
+        nuevo: false
+    },
+    {
+        title:"Chess",
+        espectadores:"25k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/743-285x380.jpg",
+        nuevo: false
+    },
+    {
+        title:"Clash of Clans",
+        espectadores:"105k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/73914_IGDB-285x380.jpg",
+        nuevo: false
+    },
+    {
+        title:"Palia",
+        espectadores:"105k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/982017546_IGDB-285x380.jpg",
+        nuevo: true
+    },
+    {
+        title:"Cyberpunck 2077",
+        espectadores:"45k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/65876-285x380.jpg",
+        nuevo: false
+    },
+    {
+        title:"Cyberpunck 2077",
+        espectadores:"45k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/65876-285x380.jpg",
+        nuevo: false
+    },
+    {
+        title:"Cyberpunck 2077",
+        espectadores:"45k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/65876-285x380.jpg",
+        nuevo: false
+    },
+    {
+        title:"Cyberpunck 2077",
+        espectadores:"45k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/65876-285x380.jpg",
+        nuevo: false
+    },
+    {
+        title:"Cyberpunck 2077",
+        espectadores:"45k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/65876-285x380.jpg",
+        nuevo: false
+    },
+    {
+        title:"Cyberpunck 2077",
+        espectadores:"45k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/65876-285x380.jpg",
+        nuevo: false
+    },
+    {
+        title:"Cyberpunck 2077",
+        espectadores:"45k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/65876-285x380.jpg",
+        nuevo: false
+    },
+    {
+        title:"Cyberpunck 2077",
+        espectadores:"45k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/65876-285x380.jpg",
+        nuevo: false
+    },
+    {
+        title:"Cyberpunck 2077",
+        espectadores:"45k",
+        tag:"59.99",
+        image:"https://static-cdn.jtvnw.net/ttv-boxart/65876-285x380.jpg",
+        nuevo: false
+    },
 ]
 
 export default function CategoryList(){
     return(
-        <main className="bg-[#18181b] p-3 grid grid-cols-9 ">
+        <main className="bg-[#18181b] mt-7 p-4 grid lg:grid-cols-9 grid-rows-3 md:grid-cols-6 sm:grid-cols-4">
 
             {categoryObject.map((category)=>{
                 return (
